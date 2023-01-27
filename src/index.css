@@ -4,6 +4,7 @@
   /* --headings-font: 'Poppins', sans-serif; */
   --headings-font2: 'Spirax', cursive;
   --headings-font: 'Open Sans', sans-serif;
+  --body-font: 'Poppins', sans-serif;
   /* --headings-font: 'Merriweather', serif; */
 
   --font-color1: linen;
@@ -30,6 +31,7 @@ body {
   font-size: 100%;
   font-family: var(--body-font);
   color: var(--font-color2);
+
   /* background-color: var(--background-color1); */
 }
 

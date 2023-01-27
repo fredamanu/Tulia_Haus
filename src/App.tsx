@@ -1,15 +1,18 @@
 import React from 'react';
-import { Hero, Navbar } from './components';
+import { Hero, Navbar, Professions } from './components';
 
 import './App.css';
 
 const App = () => {
   return (
-    <div className="nav-heading-container">
-      <Navbar />
+    <div className="container">
+      <div id="header">
+        <Navbar />
+        <Hero />
+      </div>
       <main>
-        <section className="heading">
-          <Hero />
+        <section>
+          <Professions />
         </section>
       </main>
     </div>

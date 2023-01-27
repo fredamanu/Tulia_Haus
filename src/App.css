@@ -1,8 +1,17 @@
-.nav-heading-container {
-  width: 100vw;
+#header {
+  position: relative;
+  /* width: 100vw; */
   height: 100vh;
-  /* background: url('./assets/img-1.png');
-  background-position: center;
+  background: url('./assets/img-1.png');
+  background-position: right;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-repeat: no-repeat; */
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+}
+
+@media screen and (max-width: 650px) {
+  #header {
+    background-position: 45%;
+  }
 }
